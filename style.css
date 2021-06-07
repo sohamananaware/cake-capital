@@ -126,3 +126,55 @@
     color: white;
 }
 
+
+/* cake list */
+#cakes{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  
+.cakelist{
+    border-radius:30px;
+    margin:20px 30px;
+    height:120px;
+    width: 120px;
+    padding:5px;
+    background-color: rgb(223, 209, 209);
+    border: 3px solid orange;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+
+  }
+
+.cakelist:hover{
+    transform: scale(1.25);
+}
+
+.heading{
+    font-family: 'Noto Serif', serif;
+    font-size: 55px;
+    text-align: center;
+    margin: 30px 0 40px;
+    color: #454545;
+}
+
+.pan{
+    border-radius: 20px;
+    margin: 5px;
+    padding:5px;
+    border: 2px solid rgb(245, 219, 148);
+}
+
+
+/* about us */
+.border {
+    background-color: rgb(235, 221, 221);
+    border: 5px solid orange;
+    padding: 20px;
+    margin: 40px;
+}
+  

@@ -90,7 +90,7 @@
 
 #bg1 img{
     display: block;
-    width: 600px;
+    width: 500px;
     opacity: 0.9;
     z-index: -1;
 }
@@ -195,11 +195,23 @@
 }
 
 /* about us */
-.border {
+#au{
     background-color: rgb(235, 221, 221);
     border: 5px solid orange;
     padding: 20px;
     margin: 40px;
+    display: flex;
+}
+
+
+#auimg img{
+    height: 250px;
+}
+
+.border{
+    text-align: center;
+    padding-left: 30px;
+    align-content: center;
 }
 
 /* head */

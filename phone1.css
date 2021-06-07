@@ -1,0 +1,135 @@
+/* nav */
+#nav{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    z-index: 1;
+}
+#nav::before{
+    height: 145px;
+
+}
+
+#nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+#nav li a{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 20px;
+    height: 20px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 5px;
+    /* text-shadow: 1px 0px 1px rgb(255, 215, 129); */
+ }
+
+ #nav li{
+    margin: 15px 5px;
+    display: inline;
+    height: 30px;
+}
+
+#logo{
+    justify-content: center;
+    display: flex;
+}
+
+#logo img{
+    margin:3px 0px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+#bg1 img{
+    width: 250px;
+    margin: auto auto;
+
+}
+
+#order{
+    margin: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#content{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+
+
+/* cakelist */
+
+
+  
+.cakelist{
+    border-radius:30px;
+    margin:5px 10px;
+    height:60px;
+    width: 60px;
+    padding:5px;
+}
+
+
+.pan{
+    font-size: 12px;
+}
+
+/* au */
+#auimg img{
+    width: 310px;
+    height: auto;
+    margin: auto auto;
+    display: flex;
+}
+
+#au{
+    display: flex;
+    flex-direction: column;
+    margin:3px;
+    align-content: center;
+}
+
+.border{
+    text-align: center;
+    padding: 5px;
+    align-content: center;
+}
+
+
+/* heading  */
+.heading{
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0 40px;
+    color: #454545;
+}
+
+input[type=text],select{
+    width: 80%;
+
+}
+input[type=submit]{
+    width: 50%;
+
+}
+
+
+
+
+.form{
+    font-size: 16px;
+}
+
+#custom{
+    font-size: 30px;
+}

@@ -26,9 +26,9 @@
         <div>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Cake Designs</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#navcake">Cake Designs</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -49,7 +49,7 @@
     </div>
     <br>
 
-    <div>
+    <div id="navcake">
         <h1 class="heading">Flavours of Cakes</h1>
         <section id="cakes">
             <div class="pan">
@@ -116,7 +116,7 @@
     </div>
     <br>
 
-    <section>
+    <section id="aboutus">
             <h1 class="heading"> About Us </h1>
             <center>
             <div class="border">
@@ -126,11 +126,38 @@
                 </br>
                 <p style="font-size:20px"> To deliver Tasty and Delicious cakes to cutsomer with their choice of Flavour
                     is our priority </p>
-
             </div>
-
-
         </center>
+    </section>
+
+    <section id="contact">
+        <h1 class="heading">Contact us</h1>
+        <div id="us">
+            <div class="form">
+                <span style="color: aliceblue; text-shadow: 2px 2px 3px black;" >Name</span>-Aarti Sanjeev Joshi <br>
+                <span style="color: aliceblue; text-shadow: 2px 2px 3px black;">Email</span>-joshisanjeev3002@gmail.com <br>
+                <span style="color: aliceblue; text-shadow: 2px 2px 3px black;">Phone</span>-9923166966<br>
+                <span style="color: aliceblue; text-shadow: 2px 2px 3px black;">Address</span>-'shrinidhi' , near Maruti Mandir , Abhaynagar , Sangli(416416)
+            </div>
+            <div class="form">
+                <form action="name">
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </form>
+                <form action="phone">
+                    <label for="phone"></label>
+                    <input type="text" id="phone" placeholder="Enter your Phone number">
+                </form>
+
+                <form action="email">
+                    <label for="email"></label>
+                    <input type="text" id="email" placeholder="Enter your email">
+                </form>
+                <form action="submit">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>           
+        </div>
     </section>
 
 </body>

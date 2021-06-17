@@ -20,11 +20,11 @@
     display: flex;
     text-align: center;
     font-size: 15px;
-    border-radius: 20px;
+    border-radius: 5px;
     height: 20px;
     text-decoration: none;
     color:rgb(0, 0, 0);
-    padding: 5px;
+    padding: 0px 0px;
     /* text-shadow: 1px 0px 1px rgb(255, 215, 129); */
  }
 

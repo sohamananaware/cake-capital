@@ -21,8 +21,6 @@
     margin: -50px;
     opacity: 90%;
     cursor: pointer;
-
-
 }
 #nav ul{
     display: none;
@@ -69,7 +67,7 @@
     text-decoration: none;
     padding: 20px; 
     color: black;
-    border: 3px solid white;
+    border-bottom: 3px solid white;
     transition:box-shadow,border 0.3s ease-in-out;
 
     
@@ -92,7 +90,7 @@
     left: 0;
     width: 60%;
     height: 100%;
-    background: white;
+    background: rgb(223, 223, 223);
     display: grid;
     grid-template-rows: auto 1fr auto;
     row-gap: 1rem;
@@ -102,7 +100,7 @@
 }
 
 .showsidebar{
-    box-shadow: 0px 0px 10px red;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
     transform: translate(0);
 }
 

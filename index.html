@@ -25,14 +25,31 @@
             <img src="./Images/logo1.png" alt="Welcome to Capital Cakes">
         </div>
         <div>
-            <ul>
-                <li><a href="#">Home</a></li>
+            <ul >
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#aboutus">About Us</a></li>
                 <li><a href="#navcake">Cake Designs</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
+
+    <div class="togglebtn">
+        <img src="./Images/burger-menu-3132626-2638855.png" alt="" >
+    </div>
+    <div class="sidebar" >
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li  onclick="closeside()"><a href="#aboutus">About Us</a></li>
+                <li><a href="#navcake">Cake Designs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        <div class="close">
+            <img src="./Images/close.png" alt="" height="20px" width="20px">
+        </div>
+    </div>
+
+
 
     <div id="background">
         <div id="bg2">
@@ -113,7 +130,11 @@
                     <h4>Photo</h4>
                 </center>
             </div>
+            <br>
         </section>
+        <center>
+            <h5>*click on flavour to veiw more*</h5>
+        </center>
     </div>
     <br>
 
@@ -124,8 +145,7 @@
                 <img src="./Images/cake list/au2.jpg" alt="">
             </div>
             <div class="border">
-                <p style="font-size:30px ; color:#21B7B0  "> Our Specialities is making <span
-                        style="color:orangered">Customized </span> and<span style="color:orangered"> Delicious</span> cakes
+                <p style="font-size:30px ; color:#12b6ae  "> Our Specialities is making Customized and Delicious cakes
                 </p>
                 </br>
                 <p style="font-size:20px"> To deliver Tasty and Delicious cakes to cutsomer with their choice of Flavour
@@ -166,7 +186,7 @@
     <br>
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d954.5439410981853!2d74.59343513272282!3d16.867197686513983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc12395bb58f647%3A0xe7c2e2c52aad53f4!2sCake%20Capital!5e0!3m2!1sen!2sin!4v1623159426309!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-</body>
-
-
+    
+    </body>
+    <script src="./toggle.js "></script>
 </html>

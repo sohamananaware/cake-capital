@@ -151,8 +151,8 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-background-color: orange;
-border: 2px solid white;
+  background-color: orange;
+  border: 2px solid white;
 }
 
 
@@ -163,3 +163,132 @@ border: 2px solid white;
   margin: 30px 0 40px;
   color: #454545;
 }
+
+
+.selectflavour{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+.selectquantity{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+.selectflavour p{
+  cursor: pointer;
+  padding: 20px;
+  margin: 2px;
+  border: 2px solid white;
+}
+
+
+.selectquantity p{
+  cursor: pointer;
+  padding: 20px;
+  margin: 2px;
+  border: 2px solid white;
+}
+
+.selectflavour p.active{
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: orange;
+  color: white;
+}
+.selectquantity p.active{
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: rgb(255, 217, 0);
+}
+.selectflavour p:hover{
+  border-radius: 5px;
+  background-color: rgb(255, 166, 0);
+  color: white;
+}
+.selectquantity p:hover{
+  border-radius: 5px;
+  background-color: rgb(255, 217, 0);
+}
+
+.fs{
+  font-family: 'Baloo Bhai 2', cursive;  
+}
+
+.inputform{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.Email1{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid orange;
+  border-radius:4px ;
+  box-sizing: border-box;
+  background-color: rgb(247, 242, 242);
+}
+.Name1{
+  border: 1px solid orange;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border-radius:4px ;
+  box-sizing: border-box;
+  background-color: rgb(247, 242, 242);
+}
+#custom1{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid orange;
+  border-radius:4px ;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: rgb(247, 242, 242);
+}
+.custom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#add1{
+  background-color: rgb(247, 242, 242);
+  width: 50%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid orange;
+  border-radius:4px ;
+  box-sizing: border-box;
+}
+
+.ordersubmit1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ordersubmit{
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid orange;
+  background-color: white;
+}
+.ordersubmit:hover{
+  background-color: rgb(235, 223, 192);
+  transform: scale(1.1);
+}
+
+

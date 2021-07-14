@@ -126,13 +126,32 @@
     padding: 10px;
     border: 1px solid orange;
     border-radius: 20px;
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#btn a{
     font-family: 'Baloo Bhai 2', cursive;
+    text-decoration: none;
+    color: black;
+}
+#btn a:hover{
+    color: white;
 }
 
 #btn:hover{
     background-color: orange;
     border: 3px solid white;
-    color: white;
 }
 
 
